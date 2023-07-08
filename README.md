@@ -40,3 +40,5 @@ Execute the following command to run the api:
 ```bash
 cargo watch -q -c -w src/ -x run
 ```
+
+Also the course code is available [here](https://github.com/jeremychone-channel/rust-axum-course).
