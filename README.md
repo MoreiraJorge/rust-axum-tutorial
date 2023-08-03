@@ -11,32 +11,34 @@ This is a simple REST API written in Rust using the [Axum](https://github.com/to
 This tutorial is divided into 3 parts:
 
 - Beginner:
-    - First route Hello World
-    - Quick Dev Setup
-    - Hello Params / Path
-    - Static file router 
+  - First route Hello World
+  - Quick Dev Setup
+  - Hello Params / Path
+  - Static file router
 - Intermediate:
-    - Api login
-    - Resposne Mapper layer
-    - Cookies
-    - Model for CRUD operations
-    - API routes
+  - Api login
+  - Resposne Mapper layer
+  - Cookies
+  - Model for CRUD operations
+  - API routes
 - Advanced:
-    - Custom auth middleware
-    - Custom extractor (Ctx)
-    - Ctx from REST to CRUD model api
-    - Optimisations on Ctx middleware
-    - Advance error handling (Client vs Server)
-    - Logging
+  - Custom auth middleware
+  - Custom extractor (Ctx)
+  - Ctx from REST to CRUD model api
+  - Optimisations on Ctx middleware
+  - Advance error handling (Client vs Server)
+  - Logging
 
 ### Notes
 
 Execute the following command to run the dev test:
+
 ```bash
 cargo watch -q -c -w tests/ -x "test -q quick_dev -- --nocapture"
 ```
 
 Execute the following command to run the api:
+
 ```bash
 cargo watch -q -c -w src/ -x run
 ```
