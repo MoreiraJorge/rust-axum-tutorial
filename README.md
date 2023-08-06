@@ -29,7 +29,7 @@ This tutorial is divided into 3 parts:
   - Advance error handling (Client vs Server)
   - Logging
 
-### Notes
+## Notes
 
 Execute the following command to run the dev test:
 
